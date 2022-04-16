@@ -1,0 +1,33 @@
+@media screen and (max-width: 730px){
+    header .container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .filme-principal{
+        background-position: center;
+    }  
+    .filme-principal .botao {
+        margin-top: 15px;
+        width: 250px;
+    }
+    .item{
+        width: 220px ;
+        height: 330px;
+        margin: 0 auto;
+    }
+ 
+}
+@media screen and (max-width: 280px){
+    header .container nav{
+        display: none;
+    }
+    .filme-principal{
+        background-position: center;
+    }  
+    .filme-principal .botao {
+        margin-top: 10px;
+        width: 250px;
+    }
+ 
+}
